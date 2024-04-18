@@ -38,8 +38,21 @@ nav a:hover {
 button {
     color: #F2EDE2;
     background-color: #ff6600;
+    border-color: #ff6600;
+    width: 100px;
 }
 button:hover {
     background-color: white;
     color: black;
+}
+
+hr.rounded {
+    border-top: 5px solid #bebebe;
+    border-radius: 5px;
+  }
+
+.nextBTN {
+    display: block;
+    margin: auto;
+    width: 200px;
 }
